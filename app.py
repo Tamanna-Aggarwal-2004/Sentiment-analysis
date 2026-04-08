@@ -50,7 +50,7 @@ with col3:
         st.session_state.text = "I am so frustrated right now"
 with col4:
     if st.button("😨 Fear"):
-        st.session_state.text = "This is Scary!!!"
+        st.session_state.text = "This situation is terrifying"
 with col5:
     if st.button("😊 Joy"):
         st.session_state.text = "We are having fun."
