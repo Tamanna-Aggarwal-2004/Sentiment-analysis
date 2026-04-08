@@ -40,19 +40,19 @@ st.subheader("Try Examples 👇")
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
-    if st.button("😊 Happy"):
+    if st.button("😊"):
         st.session_state.text = "I am so happy today!"
 with col2:
-    if st.button("😢 Sad"):
+    if st.button("😢"):
         st.session_state.text = "I feel very lonely and sad"
 with col3:
-    if st.button("😡 Angry"):
+    if st.button("😡"):
         st.session_state.text = "I am so frustrated right now"
 with col4:
-    if st.button("😨 Fear"):
+    if st.button("😨"):
         st.session_state.text = "This situation is terrifying"
 with col5:
-    if st.button("😊 Joy"):
+    if st.button("😊"):
         st.session_state.text = "We are having fun."
 
 text = st.text_area("Enter your text", value=st.session_state.get("text", ""))
